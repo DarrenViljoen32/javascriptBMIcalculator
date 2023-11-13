@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript BMI Calculator</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <section class="sect">
     <h1>BMI Calculator</h1>
-    <br>
-    <label>Height (in cm):</label>
-    <br><br>
-    <input type="text" data-height>
-    <br><br>
-    <label>Weight (in kg):</label>
-    <br>
-    <br>
-    <input type="text" data-weight>
-    <button data-calculate>Calculate</button>
-    <div data-result>
-
-    </div>
+        <br>
+        <label>Height (in cm):</label>
+        <br><br>
+        <input type="text" data-height>
+        <br><br>
+        <label>Weight (in kg):</label>
+        <br><br>
+        <input type="text" data-weight>
+        <br><br>
+        <button data-calculate type="submit">Calculate</button>
+        <div class="result" data-result>
+        </div>
+    </section>
+    
     <script src="/javascript/bmi.js"></script>
 </body>
 </html>
